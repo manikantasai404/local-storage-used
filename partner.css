@@ -1,0 +1,81 @@
+
+input[type=text], select, textarea, .sel {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(129, 139, 139);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    height:50px;
+    box-shadow: 5px 10px 18px #888888;
+   }
+   html{
+      
+      text-align: -webkit-center;
+      margin-right: 80px;
+      margin-left: 80px;
+      padding: 20px;
+      background-image:hsl(212, 53%, 87%);
+   }
+  
+   
+   .Column-layout{
+    display: flex;
+    background: none;
+    margin: 40px auto 0 auto;
+    width: 60%;
+    padding: 5px;
+  
+   }
+   .side1-layout{
+    flex: 1;
+    order: 1;
+    padding-right: 20px;
+    border-color: #4CAF50;
+   }
+   .side2-layout{
+    flex: 1;
+    order: 2;
+    padding-right: 20px;
+    border-color: #4CAF50;
+   }
+   button{
+    height:40px;
+    width:100px;
+    border:none;
+    margin:15px;
+    text-decoration: none;
+    
+   }
+   button a{
+
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    
+   }
+   h2{
+      font-size: 38px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-shadow: 10px 10px 18px #888888;
+   }
+   .back{
+
+    background-color: rgb(219, 92, 92);
+    
+   }
+   .next{
+
+    background-color: rgb(133, 171, 214);
+   }
+   .back:hover{
+
+    background-color: rgb(89, 216, 89);
+    box-shadow: 10px 10px 18px #888888;
+   }
+   .next:hover{
+
+    background-color: rgb(89, 216, 89);
+    box-shadow: 10px 10px 18px #888888;
+   }

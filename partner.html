@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Partner</title>
+<link rel="stylesheet" href="partner.css">
+<Script src="script.js">
+</Script>
+</head>
+
+
+<body>
+   <h2>Company Information</h2>
+   <div style="text-align: center">
+    
+   <div class="Column-layout">
+
+       <div class="side1-layout">
+           <label ><b>Company Name</b></label>
+           <input id="CompanyName" type="text" name="Company Name" required>
+
+           <label for="country"><b>Country</b></label>
+                 <select id="country" name="country">
+                   <option value="None">None</option>
+                   <option value="India">India</option>
+                   <option value="australia">Australia</option>
+                   <option value="canada">Canada</option>
+                   <option value="usa">USA</option>
+                 </select>
+         </div>
+
+
+       <div class="side2-layout">
+           <label><b>Company Website</b></label>
+           <input id="CompanyWebsite" type="text" name="cweb" required>
+           <label for="state"><b>State/Province</b></label>
+
+                 <select id="state" name="state">
+                     <option value="None">None</option>
+                   <option value="Andhrapradesh">Andhrapradesh</option>
+                   <option value="Karnataka">Karnataka</option>
+                   <option value="Tamilnadu">Tamilnadu</option>
+                   <option value="Kerala">Kerala</option>
+                 </select>
+         </div>
+   </div>
+
+
+
+   <div style="margin-right: -5px;">
+       <label for="subject"><b>Company Description(Optional)</b></label><br>
+       <textarea id="subject" name="subject" placeholder="Write something..." style="height:100px; width:60%;"></textarea><br>
+   </div>
+
+
+
+   <div class="Column-layout">
+<div class="side1-layout">
+<label for="subject"><b>Years in Business</b></label>
+<select id="Business" name="COBJ16CF17" id="noofemployees" >
+ <option value="-None-">-None-</option>
+ <option value="1-2">1-2</option>
+ <option value="2-4">2-4</option>
+ <option value="4-6">4-6</option>
+ <option value="6-8">6-8</option>
+ <option value="8-10">8-10</option>
+</select>
+</div>
+
+
+
+<div class="side2-layout">
+<label for="subject"><b>Number of Employees</b></label>
+<select id="Employees" name="COBJ16CF17" id="noofemployees">
+ <option value="-None-">-None-</option>
+ <option value="1-5">1-5</option>
+ <option value="6-10">6-10</option>
+ <option value="11-25">11-25</option>
+ <option value="26-50">26-50</option>
+ <option value="51-100">51-100</option>
+ <option value="100+">100+</option>
+</select>
+</div>
+</div>
+
+
+
+<div>
+    <button class="back" type="submit"><a href="assesment.html">Back</a></button>
+       <button class="next" type="submit" onclick="savep();"><a href="signup.html">Next</a></button>
+     </div>
+</div>
+
+
+
+
+</body>
+</html>
